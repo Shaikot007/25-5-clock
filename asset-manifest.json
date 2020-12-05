@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/25-5-clock/static/css/main.14b56c41.chunk.css",
+    "main.js": "/25-5-clock/static/js/main.44444c5c.chunk.js",
+    "main.js.map": "/25-5-clock/static/js/main.44444c5c.chunk.js.map",
+    "runtime-main.js": "/25-5-clock/static/js/runtime-main.d53b582d.js",
+    "runtime-main.js.map": "/25-5-clock/static/js/runtime-main.d53b582d.js.map",
+    "static/js/2.ed5546d2.chunk.js": "/25-5-clock/static/js/2.ed5546d2.chunk.js",
+    "static/js/2.ed5546d2.chunk.js.map": "/25-5-clock/static/js/2.ed5546d2.chunk.js.map",
+    "static/js/3.5c1061b1.chunk.js": "/25-5-clock/static/js/3.5c1061b1.chunk.js",
+    "static/js/3.5c1061b1.chunk.js.map": "/25-5-clock/static/js/3.5c1061b1.chunk.js.map",
+    "index.html": "/25-5-clock/index.html",
+    "static/css/main.14b56c41.chunk.css.map": "/25-5-clock/static/css/main.14b56c41.chunk.css.map",
+    "static/js/2.ed5546d2.chunk.js.LICENSE.txt": "/25-5-clock/static/js/2.ed5546d2.chunk.js.LICENSE.txt",
+    "static/media/beep.7059255a.mp3": "/25-5-clock/static/media/beep.7059255a.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d53b582d.js",
+    "static/js/2.ed5546d2.chunk.js",
+    "static/css/main.14b56c41.chunk.css",
+    "static/js/main.44444c5c.chunk.js"
+  ]
+}
