@@ -1,0 +1,65 @@
+#session-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 40%;
+  text-align: center;
+}
+
+#session-label p {
+  margin: 0%;
+}
+
+.SessionIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+}
+
+button {
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#session-decrement {
+  margin: 0% 5% 0% 5%;
+}
+
+#session-length {
+  margin: 0% 5% 0% 5%;
+  width: 10%;
+}
+
+#session-increment {
+  margin: 0% 5% 0% 5%;
+}
+
+/* Media queries for mini screen phones */
+@media only screen and (min-width: 240px) and (max-width: 379px) {
+  #session-label { width: 100%; } 
+} 
+
+/* Media queries for phones */
+@media only screen and (min-width: 380px) and (max-width: 480px) {
+  #session-label { width: 100%; }
+} 
+
+/* Media queries for small width screen tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #session-label { width: 100%; }
+} 
+
+/* Media queries for big width screen tablets */
+@media only screen and (min-width: 769px) and (max-width: 1320px) {
+  #session-label { width: 100%; }
+}
