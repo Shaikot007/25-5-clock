@@ -15,7 +15,7 @@ class BreakLength extends React.Component {
       <div id="break-label">
         <p>{this.state.breakString}</p>
         <div className="BreakIcon">
-          {this.props.timerPlay ? 
+          {this.props.timerPlay ?
             <button id="break-decrement" onClick={() => this.props.handleDecrement()}>
               <FontAwesomeIcon icon={faArrowDown} />
             </button> :
@@ -24,7 +24,7 @@ class BreakLength extends React.Component {
             </button>
           }
           <p id="break-length">{this.props.breakLength}</p>
-          {this.props.timerPlay ? 
+          {this.props.timerPlay ?
             <button id="break-increment" onClick={() => this.props.handleIncrement()}>
               <FontAwesomeIcon icon={faArrowUp} />
             </button> :

@@ -46,18 +46,18 @@ button {
 
 /* Media queries for mini screen phones */
 @media only screen and (min-width: 240px) and (max-width: 379px) {
-  #break-label { width: 100%; } 
-} 
+  #break-label { width: 100%; }
+}
 
 /* Media queries for phones */
 @media only screen and (min-width: 380px) and (max-width: 480px) {
   #break-label { width: 100%; }
-} 
+}
 
 /* Media queries for small width screen tablets */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   #break-label { width: 100%; }
-} 
+}
 
 /* Media queries for big width screen tablets */
 @media only screen and (min-width: 769px) and (max-width: 1320px) {

@@ -15,7 +15,7 @@ class SessionLength extends React.Component {
       <div id="session-label">
         <p>{this.state.sessionString}</p>
         <div className="SessionIcon">
-          {this.props.timerPlay ? 
+          {this.props.timerPlay ?
             <button id="session-decrement" onClick={() => this.props.handleDecrement()}>
               <FontAwesomeIcon icon={faArrowDown} />
             </button> :
@@ -24,7 +24,7 @@ class SessionLength extends React.Component {
             </button>
           }
           <p id="session-length">{this.props.sessionLength}</p>
-          {this.props.timerPlay ? 
+          {this.props.timerPlay ?
             <button id="session-increment" onClick={() => this.props.handleIncrement()}>
               <FontAwesomeIcon icon={faArrowUp} />
             </button> :
@@ -36,6 +36,6 @@ class SessionLength extends React.Component {
       </div>
     );
   }
-}
+};
 
 export default SessionLength;
